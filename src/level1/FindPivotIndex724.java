@@ -1,6 +1,6 @@
 package level1;
 
-import static inputs.inputArray.inputIntArray;
+import static inputs.Inputs.inputIntArray;
 
 public class FindPivotIndex724 {
 

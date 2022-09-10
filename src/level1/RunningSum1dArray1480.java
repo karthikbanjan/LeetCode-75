@@ -2,7 +2,7 @@ package level1;
 
 import java.util.Arrays;
 
-import static inputs.inputArray.inputIntArray;
+import static inputs.Inputs.inputIntArray;
 
 public class RunningSum1dArray1480 {
 

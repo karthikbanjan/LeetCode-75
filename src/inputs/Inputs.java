@@ -2,7 +2,7 @@ package inputs;
 
 import java.util.Scanner;
 
-public class inputArray {
+public class Inputs {
 
     static Scanner sc = new Scanner(System.in);
 
@@ -15,6 +15,10 @@ public class inputArray {
         }
 
         return nums;
+    }
+
+    public static String inputString() {
+        return sc.next();
     }
 
 }
