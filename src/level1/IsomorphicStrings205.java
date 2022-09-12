@@ -2,11 +2,9 @@ package level1;
 
 import java.util.HashMap;
 
-import static inputs.Inputs.inputString;
-
 public class IsomorphicStrings205 {
 
-    public static boolean isIsomorphic(String s, String t) {
+    public boolean isIsomorphic(String s, String t) {
         int l = s.length();
         HashMap<Character, Character> match = new HashMap<>();
 
@@ -25,10 +23,6 @@ public class IsomorphicStrings205 {
         }
 
         return true;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(isIsomorphic(inputString(), inputString()));
     }
 
 }

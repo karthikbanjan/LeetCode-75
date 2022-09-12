@@ -1,10 +1,8 @@
 package level1;
 
-import static inputs.Inputs.inputString;
-
 public class IsSubsequence392 {
 
-    public static boolean isSubsequence(String s, String t) {
+    public boolean isSubsequence(String s, String t) {
         if (s.trim().length() == 0) {
             return true;
         }
@@ -22,7 +20,4 @@ public class IsSubsequence392 {
         return si == sl;
     }
 
-    public static void main(String[] args) {
-        System.out.println(isSubsequence(inputString(), inputString()));
-    }
 }

@@ -1,10 +1,8 @@
 package level1;
 
-import static inputs.Inputs.inputIntArray;
-
 public class FindPivotIndex724 {
 
-    public static int pivotIndex(int[] nums) {
+    public int pivotIndex(int[] nums) {
         int n = nums.length;
         int lSum = 0, rSum = 0;
 
@@ -17,10 +15,6 @@ public class FindPivotIndex724 {
         }
 
         return -1;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(pivotIndex(inputIntArray()));
     }
 
 }
